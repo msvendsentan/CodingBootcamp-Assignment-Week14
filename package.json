@@ -1,0 +1,26 @@
+{
+  "name": "codingbootcamp-assignment-week14",
+  "version": "1.0.0",
+  "description": "A simple \"to-do list\" full-stack (node, express, mysql, handlebars) app for Week 14 of UofT's Coding Bootcamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvendsentan/CodingBootcamp-Assignment-Week14.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msvendsentan/CodingBootcamp-Assignment-Week14/issues"
+  },
+  "homepage": "https://github.com/msvendsentan/CodingBootcamp-Assignment-Week14#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
+}
