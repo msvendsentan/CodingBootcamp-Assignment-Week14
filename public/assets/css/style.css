@@ -1,3 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: lightcyan;
+}
+
+header {
+    background: lightblue;
+    height: 150px;
+    line-height: 150px;
+}
+
+#instructions {
+    border-bottom: 1px solid grey;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 35px 0px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
 p {
-    color: red;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.list {
+    width: 30%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td:first-child {
+    width: 100%;
+}
+
+tr {
+    border-left: 6px solid lightblue;
+}
+
+tr:hover {
+    background: #f5f5f5;
+}
+
+td {
+    border-color: #ddd;
+    border-style: solid;
+    border-width: 1px 1px;
+    padding: 0px 15px;
+    height: 50px;
+    vertical-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.complete {
+    background: green;
+}
+
+.complete:hover {
+    background: rgb(87, 161, 87)
+}
+
+.incomplete {
+    background: orange;
+}
+
+.incomplete:hover {
+    background: rgb(255, 207, 119);
+}
+
+.delete {
+    background: red;
+}
+
+.delete:hover{
+    background: rgb(255, 83, 83);
+}
+
+#submitwindow {
+    width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: center;
+}
+
+#task {
+    padding: 5px 10px;
+    width: 80%;
+}
+
+#submit {
+    background: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 7px 10px;
+}
+
+#api {
+    text-align: center;
+    margin-top: 50px;
 }
