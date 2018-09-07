@@ -1,6 +1,6 @@
 // Dependency for MySQL
 const mysql = require("mysql");
-const connection;
+var connection;
 
 // Define connection
 if (process.env.JAWSDB_URL) {
